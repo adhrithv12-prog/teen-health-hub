@@ -10,12 +10,12 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      color: #222;
+      background: #0f172a;
+      color: #e5e7eb;
     }
 
     header {
-      background: linear-gradient(135deg, #2b7cff, #1f5ed6);
+      background: linear-gradient(135deg, #1f2937, #111827);
       color: white;
       text-align: center;
       padding: 60px 20px;
@@ -29,25 +29,27 @@
     header p {
       margin-top: 10px;
       font-size: 18px;
-      opacity: 0.9;
+      opacity: 0.85;
     }
 
     nav {
-      background: #1f5ed6;
+      background: #111827;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       gap: 20px;
       padding: 12px;
+      border-bottom: 1px solid #374151;
     }
 
     nav a {
-      color: white;
+      color: #e5e7eb;
       text-decoration: none;
       font-weight: bold;
     }
 
     nav a:hover {
+      color: #ffffff;
       text-decoration: underline;
     }
 
@@ -58,16 +60,21 @@
     }
 
     .card {
-      background: white;
+      background: #1f2937;
       border-radius: 14px;
       padding: 20px;
       margin: 15px 0;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
 
     .section-title {
       font-size: 24px;
       margin-bottom: 10px;
+      color: #f9fafb;
+    }
+
+    p {
+      color: #d1d5db;
     }
 
     .hero-img {
@@ -83,10 +90,10 @@
     }
 
     .mini-card {
-      background: white;
+      background: #111827;
       border-radius: 14px;
       padding: 15px;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.3);
       transition: 0.2s;
     }
 
@@ -104,7 +111,7 @@
       display: inline-block;
       margin-top: 10px;
       padding: 10px 14px;
-      background: #2b7cff;
+      background: #374151;
       color: white;
       border-radius: 10px;
       text-decoration: none;
@@ -112,14 +119,14 @@
     }
 
     .button:hover {
-      background: #1f5ed6;
+      background: #4b5563;
     }
 
     footer {
       text-align: center;
       padding: 25px;
       font-size: 13px;
-      color: #666;
+      color: #9ca3af;
     }
   </style>
 </head>
@@ -128,7 +135,7 @@
 
 <header>
   <h1>Teen Health Hub</h1>
-  <p>Simple, clear health info for students</p>
+  <p>Simple health info that actually makes sense</p>
 </header>
 
 <nav>
@@ -144,8 +151,8 @@
   <div class="card">
     <h2 class="section-title">Welcome</h2>
     <p>
-      Teen Health Hub is a simple guide to help students understand health topics without confusing medical jargon.
-      Everything here is broken down in a clear and easy way.
+      Teen Health Hub is a simple guide designed to make health topics easy to understand.
+      No confusing terms — just clear, helpful information for students.
     </p>
 
     <img class="hero-img"
@@ -162,21 +169,21 @@
       <div class="mini-card">
         <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80">
         <h3>Symptoms</h3>
-        <p>Learn what common symptoms mean and when to pay attention.</p>
+        <p>Understand what common symptoms mean and when to pay attention.</p>
         <a class="button" href="symptoms.html">Open</a>
       </div>
 
       <div class="mini-card">
         <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=800&q=80">
         <h3>Mental Health</h3>
-        <p>Understand stress, anxiety, and how to manage your mindset.</p>
+        <p>Learn how stress, anxiety, and emotions affect your daily life.</p>
         <a class="button" href="mental-health.html">Open</a>
       </div>
 
       <div class="mini-card">
         <img src="https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=800&q=80">
         <h3>Everyday Tips</h3>
-        <p>Simple habits for better sleep, energy, and daily health.</p>
+        <p>Simple habits for better sleep, energy, and focus.</p>
         <a class="button" href="everyday-tips.html">Open</a>
       </div>
 
